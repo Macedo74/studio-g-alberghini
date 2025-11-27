@@ -260,7 +260,6 @@ body {
     background: rgba(0, 0, 0, 0.9); 
     
     /* Centraliza o conteúdo (imagem) */
-    display: flex; /* Usamos flex para centralizar, mas é hidden por padrão */
     justify-content: center;
     align-items: center;
     
