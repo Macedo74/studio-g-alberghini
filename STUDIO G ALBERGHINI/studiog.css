@@ -1,7 +1,7 @@
 :root {
-  --primary: #d4935d;
+  --primary: #333333;
   /* cor destaque */
-  --accent: #fffff2;
+  --accent: #f0f0f0;
   /* tom suave */
   --neutral-light: #ffffff;
   --neutral-dark: #333333;
@@ -492,24 +492,4 @@ body {
     .logo img {
         max-height: 40px;
     }
-}
-
-#btnTop {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 12px 16px;
-  background: var(--primary);
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  display: none; /* inicialmente escondido */
-  z-index: 9999;
-  transition: opacity 0.3s;
-}
-
-#btnTop:hover {
-  opacity: 0.8;
 }
