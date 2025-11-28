@@ -1,5 +1,6 @@
 :root {
   --primary: #333333;
+  --primary-hover: #999999;
   /* cor destaque */
   --accent: #f0f0f0;
   /* tom suave */
@@ -70,7 +71,7 @@ body {
 }
 
 .telefone-header:hover {
-    color: var(--primary);
+    color: var(--primary-hover);
 }
 
 /* Estilo para o ÍCONE do WhatsApp (dá a cor e o espaçamento) */
@@ -116,7 +117,7 @@ body {
 }
   
 .instagram-header:hover {
-    color: var(--primary);
+    color: var(--primary-hover);
 }
 
 /* AJUSTE NO WHATSAPP: Garante que ele também seja um bloco */
@@ -143,7 +144,7 @@ body {
 }
 
 .main-nav a:hover {
-  color: var(--primary);
+  color: var(--primary-hover);
 }
 
 .btn-whatsapp {
@@ -421,7 +422,7 @@ body {
 
 /* Regra para o HOVER: Onde a cor realmente muda */
 .social-instagram a:hover {
-    color: var(--primary); /* Sua cor de destaque */
+    color: var(--primary-hover); /* Sua cor de destaque */
 }
 
 .icone-pagamentos {
