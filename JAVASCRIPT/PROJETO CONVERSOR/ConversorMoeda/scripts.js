@@ -68,23 +68,23 @@ function changeCurrency() {
     switch(currencySelect.value) {
         case "real":
             currencyName.textContent = "Real";
-            currencyImage.src = "./assets/real.png";
+            currencyImage.src = "./assets/Real.png";
             break;
         case "dolar":
             currencyName.textContent = "Dólar Americano";
-            currencyImage.src = "./assets/dolar.png";
+            currencyImage.src = "./assets/Dólar.png";
             break;
         case "euro":
             currencyName.textContent = "Euro";
-            currencyImage.src = "./assets/euro.png";
+            currencyImage.src = "./assets/Euro.png";
             break;
         case "libra":
             currencyName.textContent = "Libra Esterlina";
-            currencyImage.src = "./assets/libra.png";
+            currencyImage.src = "./assets/Libra.png";
             break;
         case "bitcoin":
             currencyName.textContent = "Bitcoin";
-            currencyImage.src = "./assets/bitcoin.png";
+            currencyImage.src = "./assets/Bitcoin.png";
             break;
     }
 
@@ -94,23 +94,23 @@ function changeCurrency() {
 function changeCurrencyFrom() {
     switch(currencySelectFrom.value) {
         case "real":
-            currencyImageFrom.src = "./assets/real.png";
+            currencyImageFrom.src = "./assets/Real.png";
             currencyNameFrom.textContent = "Real";
             break;
         case "dolar":
-            currencyImageFrom.src = "./assets/dolar.png";
+            currencyImageFrom.src = "./assets/Dólar.png";
             currencyNameFrom.textContent = "Dólar Americano";
             break;
         case "euro":
-            currencyImageFrom.src = "./assets/euro.png";
+            currencyImageFrom.src = "./assets/Euro.png";
             currencyNameFrom.textContent = "Euro";
             break;
         case "libra":
-            currencyImageFrom.src = "./assets/libra.png";
+            currencyImageFrom.src = "./assets/Libra.png";
             currencyNameFrom.textContent = "Libra Esterlina";
             break;
         case "bitcoin":
-            currencyImageFrom.src = "./assets/bitcoin.png";
+            currencyImageFrom.src = "./assets/Bitcoin.png";
             currencyNameFrom.textContent = "Bitcoin";
             break;
     }
